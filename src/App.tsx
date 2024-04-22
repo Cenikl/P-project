@@ -1,12 +1,11 @@
-import { useState } from "react"
-import { AnimationTest } from "./component/test"
+import {HomePage} from "./pages/home"
+import React from "react"
 
 function App() {
-  let [count,setCount] = useState(0)
   return (
     <>
       <div>
-        <AnimationTest/>
+        <HomePage/>
       </div>
     </>
   )
